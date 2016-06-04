@@ -8,8 +8,6 @@ source:
     fn: pyFFTW-{{ version }}.tar.gz
     url: https://pypi.python.org/packages/source/p/pyFFTW/pyFFTW-{{ version }}.tar.gz
     md5: dab57de9d23f3b333115265914f3d240
-    patches:
-        - setup.patch
 
 build:
   number: 0
@@ -23,6 +21,7 @@ requirements:
         - fftw
 
     run:
+        - mkl 11.3.1
         - python
         - numpy x.x
         - fftw
