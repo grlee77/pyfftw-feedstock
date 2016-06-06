@@ -26,12 +26,6 @@ requirements:
         - numpy x.x
         - fftw
 
-test:
-    imports:
-        - pyfftw
-        - pyfftw.builders
-        - pyfftw.interfaces
-
 about:
     home: http://hgomersall.github.com/pyFFTW/
     license: BSD or GPL 2
