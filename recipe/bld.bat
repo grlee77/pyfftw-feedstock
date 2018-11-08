@@ -12,6 +12,5 @@ set PYFFTW_WIN_CONDAFORGE=1
 @rem a library search location for dynamic libraries
 @rem set PYFFTW_LIB_DIR="%LIBRARY_LIB%"
 
-%PYTHON% setup.py build
-%PYTHON% setup.py install --single-version-externally-managed --record record.txt --optimize=1
+%PYTHON% -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 if errorlevel 1 exit 1
