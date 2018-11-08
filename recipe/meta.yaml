@@ -1,5 +1,5 @@
 {% set name = "pyFFTW" %}
-{% set version = "0.11b" %}
+{% set version = "0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,10 @@ package:
 
 source:
     git_url: https://github.com/pyFFTW/pyFFTW.git
-    git_branch: master
+    git_tag: v0.11.0
 
 build:
-  number: 1004
-  skip: False
+  number: 1000
 
 requirements:
   build:
