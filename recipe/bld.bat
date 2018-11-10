@@ -3,7 +3,7 @@
 set C_INCLUDE_PATH="%PREFIX%\include"
 
 @rem tell pyFFTW to search for statically linked libraries
-set STATIC_FFTW_DIR="%LIBRARY_LIB%"
+set STATIC_FFTW_DIR="%PREFIX%\lib"
 
 @rem this variable tells pyfftw to search for fftw.lib rather than libfftw.lib
 set PYFFTW_WIN_CONDAFORGE=1
