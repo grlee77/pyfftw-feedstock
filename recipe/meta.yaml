@@ -1,6 +1,6 @@
 {% set name = "pyFFTW" %}
-{% set version = "0.10.4" %}
-{% set sha256 = "739b436b7c0aeddf99a48749380260364d2dc027cf1d5f63dafb5f50068ede1a" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "282ab6fd1937f7e743c99cd5099e50fa312b4b9c39136c502d3d14408e863500" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1004
+  number: 1000
   skip: True  # [win]
 
 requirements:
