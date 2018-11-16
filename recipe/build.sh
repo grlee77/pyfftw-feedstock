@@ -11,4 +11,4 @@ if [[ `uname` == 'Linux' ]]; then
     export CFLAGS="$CFLAGS -Wl,-Bsymbolic"
 fi
 
-$PYTHON -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+$PYTHON -m pip install . --no-deps --ignore-installed -vvv

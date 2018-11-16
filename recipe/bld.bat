@@ -9,5 +9,5 @@ set PYFFTW_WIN_CONDAFORGE=1
 @rem a library search location for dynamic libraries
 set PYFFTW_LIB_DIR=%LIBRARY_BIN%
 
-%PYTHON% -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+%PYTHON% -m pip install . --no-deps --ignore-installed -vvv
 if errorlevel 1 exit 1
